@@ -1782,7 +1782,7 @@ class Client(object):
             logger.error("pls check args")
             return False
 
-    def spot_cance_order(self, symbol, orderId):
+def spot_cancel_order(self, symbol, orderId):
         """
         Cancel order: https://bitgetlimited.github.io/apidoc/en/spot/#cancel-order
 
